@@ -1,0 +1,169 @@
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 15px !important;
+
+    background-image: url("../prueba-min.jpg");
+    background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover ;
+  }
+  .bg {
+   
+  }
+
+/* BARRA NAVEGACION */
+  #pepe li{
+    margin-left: 2em;
+    
+  }
+  div ul li a{
+    color: white !important;
+    font-size: 20px;
+  }
+  #desplegable{
+    margin-left: 1em;
+  }
+  
+  #barranav{
+    position:relative;
+    left: 15%;
+    width: 75%;
+    border-radius: 100px;
+    background-color: rgba(4, 19, 19, 0.397);
+    
+  }
+
+  /* -------------------------------*/
+
+ /* SECCION INTRODUCCION  */
+  .contienecontenedor{
+ /* The image used */
+ 
+  
+ /* Full height */
+ height: 100%;
+
+ /* Center and scale the image nicely */
+
+  }
+.contenedor{
+  position: relative;
+  top: 40%;
+  background:  rgba(4, 19, 19, 0.795);
+  margin-left: -10px;
+  margin-right: -10px;
+  
+  transform: rotate(-3deg);
+  text-align: center;
+  align-items: center;
+  padding-bottom: 3em;
+}
+.contenedor h1{
+  font-size: 25px;
+  line-height: 56px;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  
+  padding: 1em;
+  
+  width: 100%;
+ color: white;
+ display: inline-block;
+ position: relative;
+ margin-top: 1.5em;
+}
+.contenedor button{
+  margin-top: 2em;
+  background: #090909;
+  border-radius: 100px;
+  color: white;
+  position: relative;
+  width: 288.78px;
+  height: 60px;
+  font-size:20px;
+  border-style: hidden;
+}
+.contenedor button:hover{
+  background-color: rgba(80, 7, 163, 0.712);
+}
+
+@media (max-width: 700px) {
+  
+}
+/* ------------------------------  */
+
+
+/* SECCION CONOCER MAS  */
+.seccionConocermas{
+background:  rgba(4, 19, 19, 0.795);
+position: relative;
+}
+
+.seccionConocermas h3{
+  padding-top: 2em;
+}
+.contieneConocer{
+ 
+  display: flex;
+  justify-content: space-around;
+}
+
+.conocer{
+  
+  padding-top: 12em;
+  padding-bottom: 12em;  
+   
+}
+@media (max-width: 700px) {
+  .contieneConocer{
+    text-align: center;
+    display: block;
+  }
+  .conocer{padding-top: 2em;
+  padding-bottom: 2em;
+  }
+}
+
+/* -------------------------  */
+
+
+/* SECCION NOSOTROS  */
+.seccionNosotros{
+  
+background:  rgba(4, 19, 19, 0.795);
+position: relative;
+margin-top: 25em;
+}
+
+.contieneNosotros{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nosotros{
+ padding-top: 125px;
+ padding-bottom: 125px;  
+ 
+}
+
+/* ------------------  */
+
+
+ 
+
+footer{
+  
+}
+.iconos{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.iconos a img{
+  width: 70px;
+  padding: 15px;
+}
+  
+  
